@@ -19,7 +19,7 @@ public class AppTest
 
         Assert.assertEquals(pageTitle, "Home | Salesforce");
 
-        Thread.sleep(5000);
+        Thread.sleep(4000);
 
         driver.quit();
     }
