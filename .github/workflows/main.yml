@@ -1,0 +1,15 @@
+name: Incubator-Workflow-Name
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  First-Job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Executing Tests
+        run: mvn test
