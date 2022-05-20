@@ -17,7 +17,7 @@ public class AppTest
 
         String pageTitle = driver.getTitle();
 
-        Assert.assertEquals(pageTitle, "Home | Salesforce");
+        Assert.assertEquals(pageTitle, "Login | Salesforce");
 
         Thread.sleep(4000);
 
